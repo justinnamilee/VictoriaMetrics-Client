@@ -5,6 +5,9 @@ use strict;
 use Carp;
 
 
+our $VERSION = q[0.1];
+
+
 use URI;
 use HTTP::Tiny;
 use JSON::PP qw(decode_json);
